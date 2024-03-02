@@ -3,8 +3,8 @@ const seats = document.querySelectorAll('.row .seat:not(.occupied)');
 const count = document.getElementById('count');
 const total = document.getElementById('total');
 const movieSelect = document.getElementById('movie');
-const currencySelect = document.getElementById('currency'); // Nuevo: selector de moneda
-const totalInCurrency = document.getElementById('totalInCurrency'); // Nuevo: total en la moneda seleccionada
+const currencySelect = document.getElementById('currency'); // Selector de moneda
+const totalInCurrency = document.getElementById('totalInCurrency'); // Total en la moneda seleccionada
 
 populateUI();
 
@@ -80,7 +80,7 @@ movieSelect.addEventListener('change', e => {
   updateSelectedCount();
 });
 
-// Nuevo: evento de cambio de moneda
+// Evento de cambio de moneda
 currencySelect.addEventListener('change', updateCurrency);
 
 // Seat click event
