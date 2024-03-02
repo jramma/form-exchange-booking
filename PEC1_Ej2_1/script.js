@@ -7,6 +7,7 @@ const age = document.getElementById("age");
 
 // Check password is valid
 function checkPassword(input) {
+  // Signos permitidos: ` ~ ! @ # $ % ^ & * ( ) _ + - = { } | [ ] \ : " ; ' < > ? , . /
   const re =
     /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[`~!@#$%^&*()_+=\-{}|[\]\\:";'<>?,./])[A-Za-z\d`~!@#$%^&*()_+=\-{}|[\]\\:";'<>?,./]{8,}$/;
   if (re.test(input.value.trim())) {
