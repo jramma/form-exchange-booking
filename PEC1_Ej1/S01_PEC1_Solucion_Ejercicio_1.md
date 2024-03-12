@@ -21,7 +21,7 @@
 
 - **Cita qué opción ofrece CSS3 para conseguir que se apliquen diferentes estilos CSS sobre el mismo elemento en su visualización en diferentes dispositivos (diferentes tamaños de pantalla).**
 
-  La opción que ofrece CSS3 para aplicar diferentes estilos según el dispositivo es Media Queries. Mediante Media Queries, se pueden definir reglas de estilo condicionales basadas en características como el ancho de la pantalla, la resolución, la orientación, etc.
+  La opción que ofrece CSS3 para aplicar diferentes estilos según el dispositivo es Media Queries: https://devdocs.io/css/@media. Mediante Media Queries, se pueden definir reglas de estilo condicionales basadas en características como el ancho de la pantalla, la resolución, la orientación, etc.
   </br></br>
 
 - **Cita al menos 4 de las características principales de TypeScript (importante superset de JavaScript que trataremos en el siguiente capítulo)**
